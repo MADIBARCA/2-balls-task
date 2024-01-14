@@ -1,5 +1,20 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.draggingBall {
+  display: flex;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+  background: red;
 }
 
 .App-logo {
